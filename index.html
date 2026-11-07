@@ -1,0 +1,308 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>From Dirt to Art</title>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<style>
+
+{
+    box-sizing: border-box;
+}
+
+body {
+    background: whitesmoke;
+    margin: 8px;
+    font-family: "DM Sans", sans-serif;
+    color: #171411;
+}
+
+#page {
+    width: 928px;
+    max-width: 100%;
+    height: auto;
+    background: #f7f5f2;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid darkgray;
+    box-shadow: 2px 3px 6px darkgray;
+}
+
+.banner {
+    background: #3F3027;
+    color: #f7f5f2;
+    padding: 15px 50px;
+    text-align: left;
+}
+
+.banner-label {
+    font-family: "Permanent Marker", cursive;
+    font-size: 16px;
+    color: #d6bc9f;
+    margin: 0 0 8px;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: .8;
+    margin: 0 0 10px;
+}
+
+.subtitle {
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+    font-style: italic;
+    color: #e8ded2;
+    margin: 0;
+}
+
+.hero-image {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.text-section {
+    padding: 60px 80px;
+}
+
+.section-label {
+    font-family: "Permanent Marker", cursive;
+    color: #997c5e;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #3F3027;
+    margin: 0 0 30px;
+}
+
+.text-section p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 0 0 25px;
+}
+
+.first-paragraph::first-letter {
+    font-family: "Playfair Display", serif;
+    font-size: 78px;
+    font-weight: 700;
+    line-height: 0.85;
+    float: left;
+    padding-right: 12px;
+    padding-top: 8px;
+    color: #7b5c4b;
+}
+
+.pull-quote {
+    margin: 40px 0;
+    padding: 15px 30px;
+    border-left: 5px solid #AD987A;
+}
+
+.pull-quote p {
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    font-style: italic;
+    color: #3F3027;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.final-image {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+
+.image-caption {
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    font-size: 13px;
+    color: #7b5c4b;
+    padding: 15px;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+	
+/* RESPONSIVE DESIGN FOR SMARTPHONES */
+
+@media only screen and (max-width: 750px) {
+
+    body {
+        margin: 0;
+    }
+
+    #page {
+        width: 100%;
+        max-width: 100%;
+        border: none;
+        box-shadow: none;
+    }
+
+    .banner {
+        padding: 45px 25px;
+    }
+
+    h1 {
+        font-size: 46px;
+        line-height: 1.2;
+    }
+
+    .subtitle {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    .banner-label {
+        font-size: 17px;
+    }
+
+    .hero-image,
+    .final-image {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+
+    .text-section {
+        padding: 35px 25px;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 1.3;
+    }
+
+    .text-section p {
+        font-size: 20px;
+        line-height: 1.9;
+    }
+
+    .first-paragraph::first-letter {
+        font-size: 70px;
+    }
+
+
+    .pull-quote {
+        margin: 30px 0;
+        padding: 10px 20px;
+    }
+
+    .pull-quote p {
+        font-size: 26px;
+        line-height: 1.5;
+    }
+
+    .image-caption {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="page">
+
+    <header class="banner">
+
+        <p class="banner-label">
+            Getting Started With Clay
+        </p>
+
+        <h1>From Mud to Art</h1>
+
+        <p class="subtitle">
+            The Beauty of Creating with Clay
+        </p>
+
+    </header>
+
+    <img
+        class="hero-image"
+        src="pexels-igovar-igovar-3000547-38737341.jpg"
+        alt="Potter shaping clay on a pottery wheel">
+
+    <main class="text-section">
+
+        <p class="section-label">
+            01 — The Creative Process
+        </p>
+
+        <h2>The Art of Making</h2>
+
+
+        <p class="first-paragraph">
+            Every piece of pottery begins with clay,
+            water, and an idea. What starts as a
+            simple lump of earth slowly takes shape
+            through the movement of the hands.
+            Whether formed on a pottery wheel or
+            built by hand, the process requires
+            patience, creativity, and an
+            understanding of the material.
+        </p>
+
+
+        <p>
+            As the clay dries, it begins its
+            transformation. Through firing and
+            glazing, its appearance changes,
+            revealing colors, textures, and
+            details that make every piece unique.
+            Each finished piece reflects the
+            decisions of the artist, along with
+            the natural qualities of the clay.
+        </p>
+
+        <blockquote class="pull-quote">
+
+            <p>
+                &ldquo;Every piece begins
+                with a touch.&rdquo;
+            </p>
+
+        </blockquote>
+
+    </main>
+
+    <img
+        class="final-image"
+        src="pexels-theblackhood-34004100.jpg"
+        alt="Collection of finished handmade pottery">
+
+
+    <p class="image-caption">
+    </p>
+
+</div>
+
+</body>
+</html>
